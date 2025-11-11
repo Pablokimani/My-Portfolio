@@ -68,7 +68,7 @@ body{
     margin-right:39%;
 
 }
-.page{
+.page1{
     height: 100vh;
     width: 100%;
 }
@@ -151,16 +151,117 @@ hr{
     opacity: 0.2;
 }
 .page2{
-    height: 100vh;
     width: 100%;
 }
 .main2{
-    height: 100vh;
     width: 100%;
 }
+.main2 h3{
+    margin-left: 52%;
+    font-weight: lighter;
+    color: rgb(93, 92, 92);
+    margin-top: 6%;
+}
+.main2 h1{
+    margin-left: 45%;
+    font-weight: lighter;
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 2%;
+}
+
+.work{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    gap: 3%;
+    margin-left: 7%;
+}
+
 .box1{
-    background-color: black;
-    height: 45%;
+    background-color: #ECF0F3;
+    height: 100%;
     width: 20%;
+     box-shadow: 5px 5px 10px #c5c9ce, -5px -5px 10px #ffffff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     border-radius: 5%;
+}
+.box1 h2{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.box1 img{
+    height: 60%;
+    width: 90%;
+    border-radius: 10px;
+}
+.box1 img:hover{
+    animation: pulse 0.7s ease-in-out forwards;
+}
+.box1:hover {
+    background-color: #EE0B3C;
+    color: #fff;                
+}
+
+.box1 button i {
+    font-size: 13px;
+    color: rgba(255, 0, 0, 0.698);
+    
+}
+.box1 button{
+height: 10% ;
+background-color: #3983A1;
+color: white;
+border: none;
+padding: 2%;
+border-radius: 15px;
+font-size: 13px;
+
+}
+.box1 button:hover{
+    background-color: #ffffff;
+    color: #3c3e41;
+    animation: pulse 0.7s ease-in-out forwards;
+}
+@keyframes pulse {
+      0% {
+        transform: scale(1);
+        box-shadow: 0 0 0px rgba(0, 123, 255, 0.7);
+    }
+    50% {
+        transform: scale(1.15);
+        box-shadow: 0 0 20px rgba(0, 123, 255, 0.9);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0px rgba(0, 123, 255, 0.7);
+    }
+}
+.page3{
+    width: 100%;
+}
+.main3{
+    width: 100%;
+}
+.work2{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    gap: 3%;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.page4{
+    height: 100%;
+    width: 100%;
+
+}
+.main4{
+    height: 100%;
+    width: 100%;
 
 }
