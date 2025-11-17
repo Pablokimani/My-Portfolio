@@ -150,14 +150,15 @@ body{
     display: flex;
     gap: 2%;
 }
-.socials i{
+.socials a{
     width: 3%;
     padding: 2%;
+    color: black;
   background-color: #EEF2F4;
   box-shadow: 5px 5px 10px #c5c9ce, -5px -5px 10px #ffffff;
 
 }
-.socials i:hover{
+.socials a:hover{
     background-color: #ECF0F3;
     color: rgb(255, 0, 0);
     box-shadow: 0px  10px 20px rgba(0,0,0,0.15);
