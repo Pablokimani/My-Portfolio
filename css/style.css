@@ -98,6 +98,25 @@ body{
     margin-top: 10%;
    
 }
+
+.left1 button{
+    height: 5%;
+    width: 27%;
+    background-color: #ffffff;
+    color: rgb(255, 0, 0);
+    border: none;
+    border: 1px solid black ;
+    font-weight: 600;
+    font-family: sans-serif;
+    border-radius: 10px;
+      box-shadow: 10px 10px 20px #c5c9ce, -5px -5px 10px #ffffff;
+}
+.left1 button:hover{
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+}
 .left1 h2{
     font-size: 40px;
     color: #3c3e41;
