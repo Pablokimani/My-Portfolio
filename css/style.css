@@ -5,7 +5,9 @@ body{
     font-family: Montserrat, sans-serif;
     overflow-x: hidden;
     background-color: #ECF0F3;
+    cursor: none;
 }
+
 .navbar{
     height: 10%;
     width: 100%;
@@ -285,4 +287,18 @@ font-size: 13px;
     height: 100%;
     width: 100%;
 
+}
+.main4 h3{
+    margin-left: 52%;
+    font-weight: lighter;
+    color: rgb(93, 92, 92);
+    margin-top: 6%;
+}
+.main4 h1{
+    margin-left: 45%;
+    font-weight: lighter;
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 2%;
 }
