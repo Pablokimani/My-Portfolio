@@ -7,12 +7,14 @@
    
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="/logos/kimwavelogo.png" type="image/png">
+     <script src="https://kit.fontawesome.com/dfcfe55612.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
     <div class="navbar">
         <ul>
-            <img src="/logos/kimwave logo.png"  alt="digital solutions">
+            <img src="/logos/kimwave-logo.png"  alt="digital solutions">
             <li><a href="index.html">Home</a></li>
             <li><a href="Portfolio.html">Portfolio</a></li>
             <li><a href="Blog.html">Blog</a></li>
@@ -23,6 +25,24 @@
         </ul>
        
     </div>
+ <div class="mobile-nav">
+    <div class="mobile-header">
+        <img src="/logos/kimwave-logo.png" alt="logo">
+
+        <i class="fa-solid fa-bars bars" onclick="toggleMenu()"></i>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="Portfolio.html">Portfolio</a>
+        <a href="Blog.html">Blog</a>
+        <a href="About Us.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://meetings-eu1.hubspot.com/tech-masters" target="_blank">Book Appointment</a>
+    </div>
+</div>
+
+
     <div class="page1">
         <div class="main1">
             <div class="left1">
@@ -114,6 +134,12 @@
           <h1>OUR SERVICES</h1>
         </div>
     </div>
- <script src="https://kit.fontawesome.com/dfcfe55612.js" crossorigin="anonymous"></script>g
+ <script>
+function toggleMenu() {
+    let menu = document.getElementById("mobileMenu");
+    menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+}
+</script>
+
 </body>
 </html>
